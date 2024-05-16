@@ -1,6 +1,9 @@
+import css from './TransactionHistory.module.css'
+
 const TransactionHistory = ({ items }) => {
   return (
-    <table>
+    <table className={css.tableContainer}>
+      <div>
       <thead>
         <tr>
           <th>Type</th>
@@ -18,6 +21,7 @@ const TransactionHistory = ({ items }) => {
           </tr>
         ))}
       </tbody>
+      </div>
     </table>
   );
 };
