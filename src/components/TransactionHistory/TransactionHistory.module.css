@@ -1,14 +1,15 @@
 .tableContainer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
-th, td {
-    width: 200px;
-    height: 40px;
+th,
+td {
+  width: 200px;
+  height: 40px;
 
-    border: 1px solid #ddd;
+  border: 1px solid #ddd;
 }
